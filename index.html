@@ -10,89 +10,43 @@
 body{background:#0a0a0a;color:#e0e0e0;font-family:'JetBrains Mono',monospace;min-height:100vh}
 nav{display:flex;justify-content:space-between;align-items:center;padding:20px 5%;border-bottom:1px solid #1a1a1a;background:#111}
 .logo{color:#8aff8a;font-size:20px;font-weight:700;text-decoration:none}.logo span{color:#fff}
-.nav-links a{color:#8aff8a88;margin-left:20px;text-decoration:none;font-size:13px}.nav-links a:hover{color:#8aff8a}
+.nav-links a{color:#8aff8a88;margin-left:20px;text-decoration:none;font-size:13px}
 .hero{padding:60px 5% 40px}
 .hero h1{font-size:26px;color:#8aff8a;line-height:1.3}
 .hero h1 span{color:#fff}
 .hero p{color:#8aff8a99;margin-top:12px;font-size:14px;line-height:1.6}
 .btns{margin-top:25px;display:flex;gap:12px;flex-wrap:wrap}
-.btn{border:1px solid #8aff8a;padding:10px 18px;border-radius:6px;text-decoration:none;font-size:13px;transition:.2s}
+.btn{border:1px solid #8aff8a;padding:10px 18px;border-radius:6px;text-decoration:none;font-size:13px}
 .btn-primary{background:#8aff8a;color:#000;font-weight:700}
 .btn-outline{color:#8aff8a;background:transparent}
-.btn:hover{transform:translateY(-2px);box-shadow:0 0 15px #8aff8a33}
 .section{padding:20px 5%}
 .section-title{color:#8aff8a;font-size:18px;margin-bottom:25px}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.card{border:1px solid #8aff8a44;background:#111;padding:22px;border-radius:8px;text-decoration:none;display:block;transition:.2s}
-.card:hover{border-color:#8aff8a;transform:translateY(-3px);box-shadow:0 5px 20px #8aff8a1a}
+.card{border:1px solid #8aff8a44;background:#111;padding:22px;border-radius:8px;text-decoration:none;display:block}
 .card h3{color:#8aff8a;font-size:17px;margin-bottom:10px}
 .card p{color:#bbb;font-size:12.5px;line-height:1.6;margin-bottom:15px}
 .tags{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:12px}
 .tag{border:1px solid #8aff8a33;padding:4px 9px;border-radius:5px;font-size:10px;color:#8aff8a}
 .cmd{color:#8aff8a66;font-size:11px;margin-top:8px}
-.cert-section{border:1px solid #8aff8a33;background:linear-gradient(180deg,#111 0%,#0f1a0f 100%);border-radius:10px;padding:30px;margin-top:10px}
+.cert-section{border:1px solid #8aff8a33;background:#111;border-radius:10px;padding:30px;margin-top:10px}
 .cert-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin-top:20px}
-.cert-card{border:1px solid #8aff8a22;background:#0a0a0a;border-radius:8px;padding:20px;transition:.2s}
-.cert-card:hover{border-color:#8aff8a55}
+.cert-card{border:1px solid #8aff8a22;background:#0a0a0a;border-radius:8px;padding:20px}
 .cert-card h4{color:#8aff8a;font-size:15px;margin-bottom:8px}
 .cert-card .meta{color:#888;font-size:11px;margin-bottom:12px;line-height:1.5}
 .cert-card .highlight{color:#e0e0e0;font-size:12px;line-height:1.6}
-.cert-image-wrap{margin-top:30px;border:1px solid #8aff8a33;border-radius:8px;overflow:hidden;background:#000;padding:10px;text-align:center}
-.cert-image-wrap img{max-width:100%;border-radius:6px;cursor:zoom-in}
-.cert-note{color:#8aff8a55;font-size:10px;margin-top:12px;text-align:center}
+.cert-image-wrap{margin-top:20px;border:1px solid #8aff8a33;border-radius:8px;background:#000;padding:10px;text-align:center}
+.cert-image-wrap img{max-width:100%;border-radius:6px}
+.cert-note{color:#8aff8a55;font-size:10px;margin-top:10px;text-align:center}
 .contact-box{border:1px dashed #8aff8a44;padding:25px;border-radius:8px;background:#111;margin-top:30px;text-align:center}
 .contact-box a{color:#8aff8a;text-decoration:none}
 footer{text-align:center;padding:40px;color:#8aff8a55;font-size:11px}
-@media(max-width:768px){.grid{grid-template-columns:1fr}.cert-grid{grid-template-columns:1fr}.hero h1{font-size:21px}}
+@media(max-width:768px){.grid{grid-template-columns:1fr}.cert-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<nav>
-<a class="logo" href="#">4dham@<span>security</span></a>
-<div class="nav-links"><a href="mailto:a71148115@gmail.com">contact</a><a href="https://github.com/4dham" target="_blank">github</a></div>
-</nav>
-<div class="hero">
-<h1>Aspiring Penetration Tester - <span>PNPT in Progress</span></h1>
-<p>> Network & AD Security Enthusiast | Python | CTF Player<br>> Belbeis, Egypt | Open to Internships & Labs</p>
-<div class="btns">
-<a class="btn btn-primary" href="mailto:a71148115@gmail.com">> Email Me</a>
-<a class="btn btn-outline" href="https://www.linkedin.com/in/adham-hussein-296139440" target="_blank">LinkedIn</a>
-<a class="btn btn-outline" href="https://github.com/4dham" target="_blank">GitHub</a>
-</div>
-</div>
-<div class="section">
-<div class="section-title">> What I've Built _</div>
-<div class="grid">
-<a class="card" href="https://github.com/4dham/whale-analyzer" target="_blank">
-<h3>whale-analyzer</h3>
-<p>Whale Transaction Analyzer - Blockchain Forensics & Security Tool</p>
-<div class="tags"><span class="tag">Python</span><span class="tag">Blockchain</span><span class="tag">Security</span></div>
-<div class="cmd">$ git clone whale-analyzer</div>
-</a>
-<div class="card"><h3>PBPT Lab Writeups</h3><p>Documenting every PBPT lab</p><div class="tags"><span class="tag">Writeups</span><span class="tag">PBPT</span></div><div class="cmd">$ cat labs/linux-fundamentals.md</div></div>
-<div class="card"><h3>Simple Port Scanner [NEXT]</h3><p>Building a TCP scanner</p><div class="tags"><span class="tag">Python</span><span class="tag">Socket</span></div><div class="cmd">$ python scanner.py -t 10.10.10.5 -p 1-1000</div></div>
-<div class="card" style="border-style:dashed;display:flex;align-items:center;justify-content:center;min-height:150px"><p style="color:#8aff8a33;text-align:center;font-size:12px">+ More projects loading...</p></div>
-</div>
-</div>
+<nav><a class="logo" href="#">4dham@<span>security</span></a><div class="nav-links"><a href="mailto:a71148115@gmail.com">contact</a><a href="https://github.com/4dham" target="_blank">github</a></div></nav>
+<div class="hero"><h1>Aspiring Penetration Tester - <span>PNPT in Progress</span></h1><p>> Network & AD Security Enthusiast | Python | CTF Player<br>> Belbeis, Egypt | Open to Internships & Labs</p><div class="btns"><a class="btn btn-primary" href="mailto:a71148115@gmail.com">> Email Me</a><a class="btn btn-outline" href="https://www.linkedin.com/in/adham-hussein-296139440" target="_blank">LinkedIn</a><a class="btn btn-outline" href="https://github.com/4dham" target="_blank">GitHub</a></div></div>
+<div class="section"><div class="section-title">> What I've Built _</div><div class="grid"><a class="card" href="https://github.com/4dham/whale-analyzer" target="_blank"><h3>whale-analyzer ↗</h3><p>Whale Transaction Analyzer - Blockchain Forensics & Security Tool</p><div class="tags"><span class="tag">Python</span><span class="tag">Blockchain</span><span class="tag">Security</span></div><div class="cmd">$ git clone whale-analyzer</div></a><div class="card"><h3>PBPT Lab Writeups</h3><p>Documenting every PBPT lab</p><div class="tags"><span class="tag">Writeups</span><span class="tag">PBPT</span></div><div class="cmd">$ cat labs/linux-fundamentals.md</div></div><div class="card"><h3>Simple Port Scanner [NEXT]</h3><p>Building a TCP scanner</p><div class="tags"><span class="tag">Python</span><span class="tag">Socket</span></div><div class="cmd">$ python scanner.py -t 10.10.10.5 -p 1-1000</div></div><div class="card" style="border-style:dashed;display:flex;align-items:center;justify-content:center;min-height:150px"><p style="color:#8aff8a33;text-align:center;font-size:12px">+ More projects loading...</p></div></div></div>
+
 <div class="section">
 <div class="section-title">> Verified Certificates _</div>
-<div class="cert-section">
-<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
-<p style="color:#8aff8a;font-size:14px;">$ ls ~/certs/ --verified</p>
-<p style="color:#8aff8a55;font-size:11px;">2 certs • redacted for security • originals on private request</p>
-</div>
-<div class="cert-grid">
-<div class="cert-card"><h4>[01] A.U.P.S Scholarship 2023</h4><div class="meta">American University of Professional Studies (AUPS)<br>CEC • International Group - IG • Egypt</div><div class="highlight">> Program: General English Intermediate (10:12) + Graphic Design + Business Skills<br>> Period: 22/07/2023 to 19/09/2023<br>> Grade: Excellent<br>> Verification: www.aupsedu.us (Serial REDACTED)</div><div class="tags" style="margin-top:12px"><span class="tag">English</span><span class="tag">Graphic Design</span><span class="tag">Business</span></div></div>
-<div class="cert-card"><h4>[02] ICDL Profile V.6 - 2022</h4><div class="meta">ICDL Arabia - Teba Training Center<br>Candidate: Adham Hussein Sadek</div><div class="highlight">> Office Essentials - 14/05/2022<br>> Computer & Online Essentials - 28/04/2022<br>> Cyber Security v2.0 - 19/03/2022<br>> Status: Profile Achieved • Skills Card REDACTED</div><div class="tags" style="margin-top:12px"><span class="tag">ICDL</span><span class="tag">Cyber Security</span><span class="tag">Office</span></div></div>
-</div>
-<div class="cert-image-wrap">
-<p style="color:#8aff8a99;font-size:12px;margin-bottom:15px;">> cat combined_real_final_safe.jpg --safe-mode</p>
-<img src="combined_real_final_safe.jpg" alt="AUPS + ICDL - Real Certificates Combined Safe Version" loading="lazy">
-<p class="cert-note">Real certificates • Black redaction for QR/Serial/ID • Original documents kept private • Click to zoom</p>
-</div>
-</div>
-</div>
-<div class="section"><div class="contact-box"><p>📧 <a href="mailto:a71148115@gmail.com">a71148115@gmail.com</a> | 🔗 <a href="https://www.linkedin.com/in/adham-hussein-296139440" target="_blank">LinkedIn</a> | 💻 <a href="https://github.com/4dham" target="_blank">GitHub</a></p></div></div>
-<footer>[ github.com/4dham • linkedin.com/in/adham-hussein-296139440 • Built with ❤ in Belbeis • 2026 ]</footer>
-</body>
-</html>
